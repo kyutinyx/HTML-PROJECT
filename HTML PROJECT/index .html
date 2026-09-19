@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nyxie's Personal Page</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="heart.png">
+
+    <style>
+        /* HTML CSS */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Comic Sans MS;
+            background-color: thistle;
+            color: #38263b;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #68496d;
+            padding: 18px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #e6d4e8;
+        }
+
+        /* Main Div */
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        /* Header */
+        .header {
+            background-color: white;
+            padding: 45px 20px;
+            text-align: center;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+
+        .header h1 {
+            color: #68496d;
+            font-size: 42px;
+        }
+
+        .header p {
+            font-size: 18px;
+        }
+
+        /* Profile Picture */
+        .profile {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid #d8bfd8;
+            margin: 20px auto;
+            display: block;
+        }
+
+        /* Sections */
+        .section {
+            background-color: rgba(255,255,255,0.9);
+            margin-top: 25px;
+            padding: 30px;
+            border-radius: 18px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+
+        .section h2 {
+            color: #68496d;
+            border-bottom: 2px solid #c5a6c8;
+            padding-bottom: 8px;
+        }
+
+        /* Picture Gallery */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .gallery-item {
+            width: 280px;
+            background-color: #f3eaf3;
+            padding: 12px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .gallery-item p {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        /* Lists */
+        li {
+            margin: 8px;
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #8e6d92;
+            padding: 12px;
+        }
+
+        th {
+            background-color: #d8bfd8;
+        }
+
+        /* Quote */
+        blockquote {
+            background-color: #f4edf4;
+            border-left: 5px solid #68496d;
+            padding: 15px;
+            font-style: italic;
+        }
+
+        /* Inline Element */
+        .highlight {
+            color: #68496d;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 30px;
+            background-color: #68496d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Links -->
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#photos">PHOTOS</a>
+        <a href="#hobbies">HOBBIES</a>
+        <a href="#education">EDUCATION</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+
+    <div class="container">
+
+        <!-- HOME -->
+        <div class="header" id="home">
+
+            <img src="profile.JPEG"
+                 alt="My Profile Picture"
+                 class="profile">
+
+            <h1>Hello Everyone, I'm Tiffany!</h1>
+
+            <p>
+                Welcome to <strong> nyxie's personal webpage</strong>.
+            </p>
+
+            <p>
+                A little space about me, my interest, and my journey in life.
+            </p>
+
+        </div>
+
+
+        <!-- ABOUT ME -->
+        <div class="section" id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                Hello, Babes! 
+			</p>
+			
+			<p>
+				I'm <b>Tiffany O. Pagkalinawan,</b> living in Taguig City. 
+				My family and friends calls me <b>Tiff, Tipang or Nyx.</b> 
+				I was born in May 24, 2002 and I am 24 years old. 
+				My favorite Colors are Purple, Black and Pastel Orange and my height is 157 cm or (5'2).
+            </p>
+
+            <p>
+                This page is a small introduction about who I am, and
+                showcase some of my favorite memories and activities.
+            </p>
+
+        </div>
+
+
+        <!-- PHOTO GALLERY -->
+        <div class="section" id="photos">
+
+            <h2>Photo Gallery</h2>
+
+            <p>
+                Here are some pictures that represent my interests
+                and memorable moments.
+            </p>
+
+            <div class="gallery">
+
+                <div class="gallery-item">
+
+                    <img src="me.JPEG"
+                         alt="My profile picture">
+
+                    <p>My Profile</p>
+
+                    <small>A picture of me.</small>
+
+                </div>
+
+
+                <div class="gallery-item">
+
+                    <img src="collection.jpg"
+                         alt="My hobby">
+
+                    <p>My Collection</p>
+
+                    <small>Mga jowa kong papel.</small>
+
+                </div>
+
+
+                <div class="gallery-item">
+
+                    <img src="friends.jpg"
+                         alt="My friends">
+
+                    <p>Friends</p>
+
+                    <small>A Memories with the best people.</small>
+
+                </div>
+
+
+                <div class="gallery-item">
+
+                    <img src="ateez.jpg"
+                         alt="My favorite memory">
+
+                    <p>Favorite Memory</p>
+
+                    <small>A moment that I will always remember, seeing this boys. My ATEEZ 🩷.</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- HOBBIES -->
+        <div class="section" id="hobbies">
+
+            <h2>Hobbies</h2>
+
+            <ul>
+                <li>Singing</li>
+                <li>Dancing</li>
+				<li>Playing online games (Heartopia, ML and CODM)</li>
+                <li>Watching Movies</li>
+                <li>Reading Wattpad stories</li>
+                <li>Traveling</li>
+                <li>Taking pictures</li>
+            </ul>
+
+        </div>
+
+        <!-- EDUCATION TABLE -->
+        <div class="section" id="education">
+
+            <h2>Education</h2>
+
+            <table>
+
+                <tr>
+                    <th>Category</th>
+                    <th>School</th>
+                </tr>
+
+                <tr>
+                    <td>Elementary</td>
+                    <td>St. Vincent Learning Center</td>
+                </tr>
+
+                <tr>
+                    <td>High School</td>
+                    <td>St. Vincent Learning Center</td>
+                </tr>
+
+                <tr>
+                    <td>Senior High School</td>
+                    <td>Tipas National High Sschool</td>
+                </tr>
+
+                <tr>
+                    <td>College</td>
+                    <td>Pateros Technological College</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+
+        <!-- FAVORITE QUOTE -->
+        <div class="section">
+
+            <h2>My Quote</h2>
+
+            <blockquote>
+                "Every day is a new opportunity to learn,
+                grow, and become a better version of yourself."
+            </blockquote>
+
+        </div>
+
+
+        <!-- CONTACT -->
+        <div class="section" id="contact">
+
+            <h2>Contact Me</h2>
+
+            <p>
+                Email:
+                <a href="mailto:tiffanypagkalinawan05@gmail.com">
+                    tiffanypagkalinawan05@gmail.com
+                </a>
+            </p>
+
+            <p>
+                Facebook:
+                <a href="https://www.facebook.com/tipangskieeee/"
+                   target="_blank">
+                    Tiffany Pagkalinawan
+                </a>
+            </p>
+
+            <p>
+                Instagram:
+                <a href="https://www.instagram.com/tipangskie_/"
+                   target="_blank">
+                    @tipangskie_
+                </a>
+            </p>
+
+        </div>
+
+
+        <!-- THANK YOU -->
+        <div class="section">
+
+            <h2>Thank You for Visiting!</h2>
+
+            <p>
+                Thank you for taking the time to visit my personal webpage.
+                I hope this page gave you a little idea about who I am
+                and the things that I enjoy.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Personal Webpage 🩷</p>
+    </footer>
+
+</body>
+</html>
